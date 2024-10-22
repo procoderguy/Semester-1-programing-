@@ -1,0 +1,26 @@
+// Write a program to take an integer input from the user and print ->
+//      1. its square
+//      2. previous integer
+//      3. next integer
+
+#include<stdio.h>
+int main(){
+    int n,square,privious,next;
+    printf("Enter an integer: ");
+    scanf("%d",&n);
+
+     square=n*n;
+
+    printf("The square of the integer is:%d\n",square);
+
+    privious=n-1;
+
+    printf("The privious integer of the integer is: %d\n",privious);
+
+    next=n+1;
+
+    printf("The next integer of the integer is :%d\n",next);
+
+    return 0;
+
+}
