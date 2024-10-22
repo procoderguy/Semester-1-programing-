@@ -1,1 +1,29 @@
+// Write a program to take 2 integers as input from user and print ->
+//      1. sum
+//      2. difference
+//      3. product
+
+#include<stdio.h>
+int main(){
+
+    int a,b,sum,difference,product;
+printf("Enter two integer :\n");
+scanf("%d %d", &a,&b);
+
+sum = (a + b);
+printf("The sum of the integer is : %d\n",sum);
+
+difference =  (a-b);
+printf("The difference of the integer is : %d\n",difference);
+
+product = (a*b);
+printf("The product of the integer is : %d\n",product);
+
+return 0;
+
+
+
+
+
+}
 
