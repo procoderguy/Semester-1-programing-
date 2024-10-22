@@ -19,7 +19,7 @@ int main(){
 
     next=n+1;
 
-    printf("The next integer of the integer is :%d\n",next);
+    printf("The next integer of the integer is :%d\n",next );
 
     return 0;
 
