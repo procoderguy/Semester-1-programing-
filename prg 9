@@ -1,0 +1,12 @@
+//Write a program to enter two integers and output them
+
+#include<stdio.h>
+int main(){
+    int a,b;
+    printf("Enter Two integer: \n");
+    scanf("%d %d",&a,&b);
+
+    printf("The two integers are : %d,%d\n",a,b);
+
+    return 0;
+}
