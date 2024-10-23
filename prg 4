@@ -1,0 +1,13 @@
+// Write a program to take the temperature in Celsius as
+// input and print the temperature in Fahrenheit.
+
+#include<stdio.h>
+int main(){
+    int celsious,fahrenheit;
+    printf("Enter the tempareture in celsious : ");
+    scanf("%d",&celsious);
+
+    fahrenheit =(9*celsious)/5+32;
+    printf("The tempareture in fahrenheit is : %d\n",fahrenheit);
+    return 0;
+}
