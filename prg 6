@@ -1,0 +1,15 @@
+// Write a C program to find addition of 2 numbers without using addition operator.
+
+#include<stdio.h>
+int main(){
+
+    int x,y,add;
+
+    printf("Enter two numbers : ");
+    scanf("%d %d", &x,&y);
+
+    add= x - (-y);
+    printf("The addiotion of two numbers without using addition operator is :%d\n",add);
+
+    return 0;
+}
