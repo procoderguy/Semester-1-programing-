@@ -1,0 +1,17 @@
+//Take length (l) and width (w) from user and then calculate area of rectangle
+//which will have the length of one third of the input length (l/3)
+
+#include<stdio.h>
+int main(){
+
+    float l,w,area;
+    printf("Enter the value of l and w : \n");
+    scanf("%f %f",&l,&w);
+
+    area=(l/3)*w;
+
+    printf("The area of teh rectangle is : %f\n",area);
+
+    return 0;
+
+}
