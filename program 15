@@ -1,0 +1,17 @@
+// Write a C program to take an integer as input  from the user and find if it is even or not
+
+#include<stdio.h>
+int main(){
+
+    int n;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+
+    if(n%2==0){
+        printf("The number you have enterd is a even number");
+    }else{
+        printf("The number you have entered is a odd number");
+
+    }
+    return 0;
+}
