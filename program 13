@@ -1,0 +1,19 @@
+ // Write a program to swap two numbers without using 3rd variable
+
+ #include<stdio.h>
+ int main(){
+
+    int x,y;
+
+    printf("Enter the value of x and y :\n ");
+    scanf("%d %d",&x,&y);
+
+    x=x+y;
+    y=x-y;
+    x=x-y;
+
+    printf("After swaping the value of x is :%d\n",x);
+    printf("After swaping the value of y is ;%d\n",y);
+
+    return 0;
+ }
